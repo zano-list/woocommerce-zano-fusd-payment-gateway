@@ -1,0 +1,357 @@
+# Copyright (C) 2023 Zano Team
+# This file is distributed under the same license as the Zano Payment Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zano Payment Gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zano-payment-gateway\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-01-01T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: zano-payment-gateway\n"
+
+#. Plugin Name of the plugin
+msgid "Zano Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://zano.org"
+msgstr ""
+
+#. Description of the plugin
+msgid "A non-custodial payment processor for WordPress/WooCommerce that allows merchants to accept Zano cryptocurrency."
+msgstr ""
+
+#. Author of the plugin
+msgid "Zano Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://zano.org"
+msgstr ""
+
+#: admin/class-zano-admin.php:28
+#: admin/class-zano-admin.php:29
+msgid "Zano Payments"
+msgstr ""
+
+#: admin/class-zano-admin.php:93
+msgid "ID"
+msgstr ""
+
+#: admin/class-zano-admin.php:94
+msgid "Order"
+msgstr ""
+
+#: admin/class-zano-admin.php:95
+msgid "Payment ID"
+msgstr ""
+
+#: admin/class-zano-admin.php:96
+msgid "Amount"
+msgstr ""
+
+#: admin/class-zano-admin.php:97
+msgid "Status"
+msgstr ""
+
+#: admin/class-zano-admin.php:98
+msgid "Date"
+msgstr ""
+
+#: admin/class-zano-admin.php:99
+msgid "Actions"
+msgstr ""
+
+#: admin/class-zano-admin.php:103
+msgid "No payments found."
+msgstr ""
+
+#: admin/class-zano-admin.php:116
+msgid "confirmations"
+msgstr ""
+
+#: admin/class-zano-admin.php:122
+msgid "View"
+msgstr ""
+
+#: admin/class-zano-admin.php:145
+msgid "Payment not found."
+msgstr ""
+
+#: admin/class-zano-admin.php:151
+msgid "Payment Details"
+msgstr ""
+
+#: admin/class-zano-admin.php:155
+msgid "Back to Payments"
+msgstr ""
+
+#: admin/class-zano-admin.php:163
+msgid "Zano Payment ID"
+msgstr ""
+
+#: admin/class-zano-admin.php:167
+msgid "Integrated Address"
+msgstr ""
+
+#: admin/class-zano-admin.php:175
+msgid "Check for Payment"
+msgstr ""
+
+#: admin/class-zano-admin.php:184
+msgid "Transaction Hash"
+msgstr ""
+
+#: admin/class-zano-admin.php:187
+msgid "View in Explorer"
+msgstr ""
+
+#: admin/class-zano-admin.php:192
+msgid "Confirmations"
+msgstr ""
+
+#: admin/class-zano-admin.php:196
+msgid "Created"
+msgstr ""
+
+#: admin/class-zano-admin.php:200
+msgid "Updated"
+msgstr ""
+
+#: admin/class-zano-admin.php:214
+msgid "Checking payment status..."
+msgstr ""
+
+#: admin/class-zano-admin.php:226
+msgid "Payment status updated."
+msgstr ""
+
+#: admin/class-zano-admin.php:229
+msgid "Error:"
+msgstr ""
+
+#: admin/class-zano-admin.php:234
+msgid "An error occurred while checking payment status."
+msgstr ""
+
+#: admin/class-zano-admin.php:250
+msgid "Zano Payment Information"
+msgstr ""
+
+#: admin/class-zano-admin.php:266
+msgid "This order was not paid with Zano."
+msgstr ""
+
+#: admin/class-zano-admin.php:278
+msgid "No payment details found."
+msgstr ""
+
+#: admin/class-zano-admin.php:284
+msgid "Payment ID:"
+msgstr ""
+
+#: admin/class-zano-admin.php:288
+msgid "Amount:"
+msgstr ""
+
+#: admin/class-zano-admin.php:292
+msgid "Status:"
+msgstr ""
+
+#: admin/class-zano-admin.php:297
+msgid "Check"
+msgstr ""
+
+#: admin/class-zano-admin.php:306
+msgid "Transaction:"
+msgstr ""
+
+#: admin/class-zano-admin.php:314
+msgid "Confirmations:"
+msgstr ""
+
+#: admin/class-zano-admin.php:329
+msgid "Checking..."
+msgstr ""
+
+#: admin/class-zano-admin.php:342
+msgid "Updated"
+msgstr ""
+
+#: admin/class-zano-admin.php:344
+#: admin/class-zano-admin.php:348
+msgid "Error"
+msgstr ""
+
+#: admin/class-zano-admin.php:364
+msgid "Security check failed."
+msgstr ""
+
+#: admin/class-zano-admin.php:370
+msgid "Permission denied."
+msgstr ""
+
+#: admin/class-zano-admin.php:377
+msgid "Invalid order ID."
+msgstr ""
+
+#: includes/class-zano-api.php:66
+msgid "Could not generate integrated address"
+msgstr ""
+
+#: includes/class-zano-api.php:88
+msgid "Could not store payment details"
+msgstr ""
+
+#: includes/class-zano-api.php:369
+msgid "API URL not configured"
+msgstr ""
+
+#: includes/class-zano-api.php:392
+msgid "API request failed with code %d: %s"
+msgstr ""
+
+#: includes/class-zano-api.php:404
+msgid "Invalid API response format"
+msgstr ""
+
+#: includes/class-zano-api.php:410
+msgid "Unknown API error"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:55
+msgid "Zano Payment"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:56
+msgid "Accept Zano cryptocurrency payments directly to your wallet."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:72
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:74
+msgid "Enable Zano Payment"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:78
+msgid "Title"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:80
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:85
+msgid "Description"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:87
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:88
+msgid "Pay with Zano cryptocurrency. Payments are processed instantly and securely."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:92
+msgid "Wallet Address"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:94
+msgid "Your Zano wallet address where payments will be sent."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:99
+msgid "View Key"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:101
+msgid "Your Zano wallet view key (for monitoring incoming transactions)."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:106
+msgid "Required Confirmations"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:108
+msgid "Number of blockchain confirmations required to consider payment complete."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:113
+msgid "API URL"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:115
+msgid "URL of the Zano payment processing API."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:120
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:122
+msgid "Enable logging"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:124
+msgid "Log Zano payment events, such as API requests."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:147
+msgid "Payment error: "
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:158
+msgid "Awaiting Zano payment"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:193
+msgid "Payment Instructions"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:194
+msgid "Please send the following amount of Zano to complete your order:"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:195
+msgid "Amount:"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:196
+msgid "Address:"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:205
+msgid "Waiting for payment..."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:225
+msgid "Payment confirmed! Thank you for your purchase."
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:229
+msgid "Payment detected! Waiting for"
+msgstr ""
+
+#: includes/class-zano-payment-gateway.php:229
+msgid "confirmations"
+msgstr ""
+
+#: includes/class-zano-transaction-monitor.php:307
+msgid "Zano payment confirmed. Transaction hash: %s"
+msgstr ""
+
+#: includes/class-zano-transaction-monitor.php:334
+msgid "Zano payment detected. Waiting for confirmations: %d/%d"
+msgstr ""
+
+#: zano-payment-gateway.php:29
+msgid "Every 5 minutes"
+msgstr "" 
